@@ -1,3 +1,65 @@
-body{
-    background-color: gray;
+:root {
+    /* Variáveis */
+    --background-color: #f6f8fa;
+    --header-background-color: #d6d6d6;
+    --header-border-color: #333;
+    --card-border-color: #333;
+    --card-border-radius: 8px;
+    --text-color: #000;
+    --link-color: #333;
+
+    font-family: roboto;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: 400;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    text-align: center;
+    padding: 36px 24px;
+    background-color: var(--header-background-color);
+    border-bottom: 1px solid var(--header-border-color);
+}
+
+.card {
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    padding: 0 16px 16px 16px;
+}
+
+.card__link {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
