@@ -59,8 +59,13 @@ a:hover {
     padding: 0 16px 16px 16px;
 }
 
+.card__titulo {
+    margin-bottom: 24px;
+}
+
 .card__link {
     display: inline-block;
     width: 100%;
     text-align: center;
+    margin-top: 12px;
 }
