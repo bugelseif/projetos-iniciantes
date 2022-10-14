@@ -57,6 +57,7 @@ a:hover {
     border: 1px solid var(--card-border-color);
     border-radius: var(--card-border-radius);
     padding: 0 16px 16px 16px;
+    margin-bottom: 10px;
 }
 
 .card__titulo {
