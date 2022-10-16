@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
     /* Variáveis */
     --background-color: #f6f8fa;
-    --header-background-color: #d6d6d6;
-    --header-border-color: #333;
-    --card-border-color: #333;
+    --header-background-color: #333;
+    --header-border-color: #ddd;
+    --card-border-color: #666;
     --card-border-radius: 8px;
+    --card-accent-color: #4078c0;
     --text-color: #000;
     --link-color: #333;
 
-    font-family: roboto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -34,29 +37,37 @@ main {
     max-width: 600px;
     margin: auto;
     font-weight: 300;
+    margin-bottom: 10vh;
 }
 
 a {
     text-decoration: none;
+    font-weight: bold;
+    background-color: var(--card-accent-color);
     color: var(--link-color);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    transition-duration: 400ms;
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: var(--link-color);
+    color: #fff;
 }
 
 .titulo {
     text-align: center;
     padding: 36px 24px;
     background-color: var(--header-background-color);
+    color: #fff;
     border-bottom: 1px solid var(--header-border-color);
     margin-bottom: 36px;
 }
 
 .card {
-    border: 1px solid var(--card-border-color);
+    border: 2px solid var(--card-border-color);
     border-radius: var(--card-border-radius);
-    padding: 0 16px 16px 16px;
+    padding: 0 16px 25px 16px;
     margin-bottom: 10px;
 }
 
@@ -64,9 +75,12 @@ a:hover {
     margin-bottom: 24px;
 }
 
+.card > p{
+    font-size: 1.9ch;
+}
+
 .card__link {
-    display: inline-block;
-    width: 100%;
     text-align: center;
     margin-top: 12px;
+    font-size: 2ch;
 }
