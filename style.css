@@ -27,6 +27,7 @@ h1 {
 
 h2 {
     font-weight: 400;
+    text-align: center;
 }
 
 h3 {
@@ -73,6 +74,7 @@ a:hover {
 
 .card__titulo {
     margin-bottom: 24px;
+    font-weight: bold;
 }
 
 .card > p{
@@ -83,4 +85,10 @@ a:hover {
     text-align: center;
     margin-top: 12px;
     font-size: 2ch;
+}
+
+@media (max-width: 600px) {
+    .card {
+        margin: 10px;
+    }
 }
