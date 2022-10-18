@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+    $background-color: #f6f8fa;
+    $header-background-color: #007AFF;
+    $card-border-color: #E5E5EA;
+    $card-border-radius: 14px;
+    $card-accent-color: #007AFF;
+    $text-color: #1c1c1e;
+    $hover-color: #3092FD;
+
+:root {
+    /* Variáveis */
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: $background-color;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+    color: $text-color;
+}
+
+h3 {
+    font-weight: 400;
+    color: $text-color;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    font-weight: 300;
+    margin-bottom: 10vh;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: $card-accent-color;
+    color: $background-color;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition-duration: 400ms;
+}
+
+a:hover {
+    background-color: $hover-color;
+    color: $background-color;
+    transition: .1s ease-out;
+}
+
+.titulo {
+    text-align: center;
+    padding: 36px 24px;
+    color: #fff;
+    margin-bottom: 36px;
+    background: linear-gradient(65deg, #007AFF, #3092FD);
+    animation: graditent ease;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.projetos-titulo {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 2px solid $card-border-color;
+    border-radius: $card-border-radius;
+    padding: 8px 24px 38px 24px;
+    margin-bottom: 1rem;
+}
+
+.card__titulo {
+    margin-bottom: .1rem;
+    font-weight: bold;
+}
+
+.card > p{
+    font-size: 1.4ch;
+    margin-bottom: 2rem;
+    color: $text-color;
+}
+
+.card__link {
+    text-align: center;
+    font-size: 1.6ch;
+}
+
+.footer-link {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .card {
+        margin: 10px;
+    }
+}
