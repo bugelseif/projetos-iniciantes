@@ -97,6 +97,37 @@ a:hover {
   border-radius: 14px;
   padding: 8px 24px 38px 24px;
   margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #f6f8fa;
+}
+
+.card:hover {
+  transition: all .3s linear;
+  transform: scale(1.03);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  right: -20%;
+  width: 0;
+  height: 0;
+  transition: all .6s ease-in-out;
+  z-index: -1;
+  border-radius: 999999px;
+}
+
+.card:hover::before {
+  width: 1000px;
+  height: 1000px;
+  background-color: #8b76e9;
+} 
+
+.card:hover * {
+  transition: color 1s ease;
+  color: white;
 }
 
 .card__titulo {
