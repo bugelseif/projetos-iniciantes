@@ -169,12 +169,14 @@ main {
   padding: 1rem;
 
   border-radius: 0.875rem;
-  background-color: #007aff;
+  background-color: #c4b0f5;
+
 }
 
 .card__link:hover {
   color: #f6f8fa;
-  background-color: #3092fd;
+  background-color: #67568c;
+
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
 }
