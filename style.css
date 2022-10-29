@@ -14,7 +14,6 @@
 }
 
 body {
-  background-color: #f6f8fa;
   margin: 0px;
   padding: 0px;
   background: #a07cda;
@@ -44,10 +43,10 @@ a {
 }
 
 main {
-  max-width: 100vw;
+  max-width: 100%;
   font-weight: 300;
-  margin-bottom: 10vh;
   padding: 1rem;
+  margin: 10rem auto;
 }
 
 /* ====== Divider Top ====== */
@@ -106,8 +105,7 @@ main {
 /* ====== Projetos Cards ====== */
 .projects__cards {
   width: 100%;
-  margin: 10rem auto;
-
+  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
