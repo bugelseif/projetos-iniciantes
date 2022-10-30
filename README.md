@@ -1,5 +1,14 @@
+# 💬 Idioma 
+- [Português](#versão-português)
+- [English](#english-version)
+- [Italiano](#versione-italiana)
+- [Español](#versión-en-español)
+- [Française](#version-française) 
+- [中文](#中文版)
+
+
 # (VERSÃO PORTUGUÊS)
-# 🎃 Projetos para pessoas iniciantes - HACKTOBERFEST
+# 🎃 Projetos para pessoas iniciantes - HACKTOBERFEST 
 Aqui você pode praticar e aprender como contribuir com projetos open source.
 
 O objetivo é você usar a criatividade, contribuindo com conteúdo, melhorando o design da pagina ou complementando esse README.
@@ -16,6 +25,8 @@ O evento pode te trazer a oportunidade de trabalhar com projetos opensource, con
 - Adição de novos projetos na lista
 - Edição do design
 - Ajuste do README
+
+[Voltar ao topo](#💬-idioma)
 
 # (ENGLISH VERSION)
 # 🎃 HACKTOBERFEST - Projects for beginners
@@ -39,6 +50,8 @@ The event can bring you the opportunity to work with open-source projects, learn
 - Design editing
 - README adjustment
 
+[Back to top](#💬-idioma)
+
 # (VERSIONE ITALIANA)
 # 🎃 Progetti per principianti - HACKTOBERFEST
 
@@ -58,6 +71,9 @@ L'evento può darti l'opportunità di lavorare con progetti opensource, saperne 
 - Modifica del design
 - Correzione del README
 
+[Torna in alto](#💬-idioma)
+
+
 # (VERSIÓN EN ESPAÑOL)
 # 🎃 Proyectos para principiantes - HACKTOBERFEST
 Aquí puedes practicar y aprender a contribuir a proyectos de código abierto.
@@ -68,7 +84,7 @@ El objetivo es que uses la creatividad, aportando contenido, mejorando el diseñ
 En este artículo [Cómo prepararse para HacktoberFest 2022](https://dev.to/github/como-se-preparar-pra-o-hacktoberfest-2022-27ln) encontrarás información
 importante participar en el evento.
 
-## ⭐ Perché participar?
+## ⭐ Porqué participar?
 El evento te puede traer la oportunidad de trabajar con proyectos opensource, aprender más sobre los fundamentos de Git y GitHub, fortalecer tu currículum en línea, además de permitirte conocer otros proyectos y personas que pueden sumar más conocimiento, quien participa gana en muchos factores
 [Vea cómo hacer su primera solicitud de extracción en GitHub](https://www.youtube.com/watch?v=Du04jBWrv4A).
 
@@ -77,6 +93,9 @@ El evento te puede traer la oportunidad de trabajar con proyectos opensource, ap
 - Agregar nuevos proyectos a la lista
 - Edición de diseño
 - Ajuste LÉAME
+
+[Volver a cima](#💬-idioma)
+
 
 # (VERSION FRANÇAISE)
 # 🎃 Projets pour les débutants - HACKTOBERFEST
@@ -97,6 +116,8 @@ L'événement peut vous apporter l'opportunité de travailler avec des projets o
 - Montage du design
 - Réglage du README
 
+[Retour au sommet](#💬-idioma)
+
 # (中文版）
 # 🎃 适合初学者的项目 - HACKTOBERFEST
 在这里，您可以练习和学习如何为开源项目做出贡献。
@@ -115,3 +136,5 @@ L'événement peut vous apporter l'opportunité de travailler avec des projets o
 - 将新项目添加到列表中
 - 设计编辑
 - 自述文件设置
+
+[回到顶部](#💬-idioma)
