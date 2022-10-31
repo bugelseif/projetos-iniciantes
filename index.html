@@ -1,280 +1,263 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="script.js"></script>
-    <title>Lista de projetos</title>
-  </head>
 
-  <body>
-    <div class="shape__wrapper">
-      <div class="shape__divider--top">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
-    </div>
-    <header class="titulo">
-      <a href="https://github.com/bugelseif/projetos-iniciantes" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#a07cda; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js"></script>
+  <title>Lista de projetos</title>
+</head>
 
-      
-        <h1 class="header__titulo">
-            Lista de projetos open source de <br>nível iniciante para contribuir! &#128640; 
-        </h1>
-    </header>
-    <main>
-      <section class="projects__cards">
-        <section class="card">
-          <h3 class="card__titulo">Página da Feministech</h3>
-          <p>
-            Site oficial da Feministech, contendo informações sobre a
-            comunidade, eventos, projetos, etc.
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/feministech/feministech.github.io"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
-        </section>
-        <section class="card">
-          <h3 class="card__titulo">Transchange</h3>
-          <p>
-            Programa criado para pessoas transgênero desenvolvedoras que
-            precisam ter o trabalho de mudar as referências aos seus nomes em
-            seus repositórios no Github.
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/lissatransborda/transchange"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
-        </section>
-          <section class="card">
-            <h3 class="card__titulo">Lista de extensões para IDEs</h3>
-            <p>
-              Este repositório contém listas de extensões para IDEs selecionados
-              pela comunidade da Caverna do Patocórnio, buscando melhorar a sua
-              IDE, e deixar sua jornada na programação mais divertida e produtiva.
-              Sinta-se a vontade para adicionar mais extensões. :D
-            </p>
-            <a
-              class="card__link"
-              href="https://github.com/acaverna/Extensoes-Maneiras-Para-Sua-IDE"
-              target="_blank"
-            >
-              Contribua aqui
-            </a>
-          </section>
-        <section class="card">
-          <h3 class="card__titulo">Eventos de tecnologia no Brasil</h3>
-          <p>
-            Este repositório contém uma lista de eventos de tecnologia que vão
-            acontecer no Brasil de maneira online, presencial ou híbrida. Foi
-            criada pela comunidade da mentoria de pessoas DevRel,
-            Abacatinhos.dev, para facilitar a busca por eventos nos quais
-            podemos participar.
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/Abacatinhos/eventos-tech-brasil"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
-        </section>
-        <section class="card">
-          <h3 class="card__titulo">Hacktoberfest</h3>
-          <p>
-            Este repositório contém informações, materiais de estudo e
-            repositórios sobre a Hacktoberfest, como uma forma de facilitar
-            pessoas iniciantes de contribuirem no evento.
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/leticiadasilva/Hacktoberfest"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
-        </section>
-        <section class="card">
-          <h3 class="card__titulo">Por onde começar?</h3>
-          <p>
-            União de materiais totalmente gratuitos para ajudar quem desejar
-            entrar em alguma área, aprender uma nova tecnologia ou aprimorar
-            suas skills.
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/leticiadasilva/por-onde-comecar"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
-        </section>
-        <section class="card">
-          <h3 class="card__titulo">Curso Kotlinautas</h3>
-          <p>
-            Projeto com vários exercicios de lógica de programação para aprender
-            Kotlin utilizando o IntelliJ IDEA
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/Kotlinautas/curso-kotlinautas"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
-        </section>
-          </section>
-          <section class="card">
-            <h3 class="card__titulo">Interview Questions</h3>
-            <p>
-                Projeto com várias questões de entrevistas, para treinar lógica de programação e se preparar para entrevistas técnicas. 
-            </p>
-            <a class="card__link" href="https://github.com/thalytabdn/Interview-Questions" target="_blank">
-                Contribua aqui
-            </a>
-          </section>
-          <section class="card">
-              <h3 class="card__titulo">Up for Grabs!</h3>
-              <p>
-                  Ferramenta que facilita a pesquisa em encontrar projetos que possuem uma curadoria de tarefas para novos contribuintes.
-              </p>
-              <a class="card__link" href="https://up-for-grabs.net" target="_blank">
-                  Contribua aqui
-              </a>
-          </section>
-          <section class="card">
-              <h3 class="card__titulo">Front-end Developers</h3>
-              <p>
-                  Repositório com tutoriais e referências para pessoas desenvolvedoras front-end no @github.
-              </p>
-              <a class="card__link" href="https://github.com/anamariasilva/front-end" target="_blank">
-                  Contribua aqui
-              </a>
-          </section>
-          <section class="card">
-              <h3 class="card__titulo">Cursos Gratuitos</h3>
-              <p>
-                  Repositório com links de materiais gratuitos em pt-br &#127463;&#127479;
-              </p>
-              <a class="card__link" href="https://github.com/celycodes/cursos-gratuitos" target="_blank">
-                  Contribua aqui
-              </a>
-          </section>
-          <section class="card">
-              <h3 class="card__titulo">Desenhando com CSS</h3>
-              <p>
-                Repositorio criado para desenhos feitos com css.
-              </p>
-              <a class="card__link" href="https://github.com/proxygo/desenhando_com_css" target="_blank">
-                  Contribua aqui
-              </a>
-          </section>
-          <section class="card">
-              <h3 class="card__titulo">Front-end Developers</h3>
-              <p>
-                  Esse repositório foi criado por Fernanda Souza, com o intuito de divulgar 
-                  ferramentas gratuitas que possam auxiliar pessoas em seus estudos.
-              </p>
-              <a class="card__link" href="https://github.com/leitoraincomum/conteudos-tech">
-                  Contribua aqui
-              </a>
-          </section>
-          <section class="card">
-              <h3 class="card__titulo">DevChallenge</h3>
-              <p>
-                Repositório com desafios que tem como objetivo celebrar e incentivar o
-                software de código aberto, além de contribuir com a comunidade de
-                tecnologia para prática de desenvolvimento e troca de conhecimentos.
-              </p>
-              <a
-                class="card__link"
-                href="https://github.com/devchallenge-io/hacktoberfest2022"
-                target="_blank"
-              >
-                Contribua aqui
-              </a>
-          </section>
-          </section>
-            
-      </main>
+<body>
+  <div class="shape__wrapper">
+    <div class="shape__divider--top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
     </div>
-        </section>
-        <section class="card">
-          <h3 class="card__titulo">Awesome JavaScript Projects</h3>
-          <p>
-            Repositório com exemplos de projetos front-end para pessoas iniciantes
-            que utilizam HTML, CSS e JavaScript.
-          </p>
-          <a
-            class="card__link"
-            href="https://github.com/varunKT001/awesome-javascript-projects"
-            target="_blank"
-          >
-            Contribua aqui
-          </a>
+  </div>
+  <header class="titulo">
+    <a href="https://github.com/bugelseif/projetos-iniciantes" class="github-corner"
+      aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250"
+        style="fill:#a07cda; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg></a>
+    <style>
+      .github-corner:hover .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+      }
+
+      @keyframes octocat-wave {
+
+        0%,
+        100% {
+          transform: rotate(0)
+        }
+
+        20%,
+        60% {
+          transform: rotate(-25deg)
+        }
+
+        40%,
+        80% {
+          transform: rotate(10deg)
+        }
+      }
+
+      @media (max-width:500px) {
+        .github-corner:hover .octo-arm {
+          animation: none
+        }
+
+        .github-corner .octo-arm {
+          animation: octocat-wave 560ms ease-in-out
+        }
+      }
+    </style>
+
+
+    <h1 class="header__titulo">
+      Lista de projetos open source de <br>nível iniciante para contribuir! &#128640;
+    </h1>
+  </header>
+  <main>
+    <section class="projects__cards">
+      <section class="card">
+        <h3 class="card__titulo">Página da Feministech</h3>
+        <p>
+          Site oficial da Feministech, contendo informações sobre a
+          comunidade, eventos, projetos, etc.
+        </p>
+        <a class="card__link" href="https://github.com/feministech/feministech.github.io" target="_blank">
+          Contribua aqui
+        </a>
       </section>
-    </main>
-    <div class="shape__wrapper">
-      <div class="shape__divider--bottom">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
+      <section class="card">
+        <h3 class="card__titulo">Transchange</h3>
+        <p>
+          Programa criado para pessoas transgênero desenvolvedoras que
+          precisam ter o trabalho de mudar as referências aos seus nomes em
+          seus repositórios no Github.
+        </p>
+        <a class="card__link" href="https://github.com/lissatransborda/transchange" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Lista de extensões para IDEs</h3>
+        <p>
+          Este repositório contém listas de extensões para IDEs selecionados
+          pela comunidade da Caverna do Patocórnio, buscando melhorar a sua
+          IDE, e deixar sua jornada na programação mais divertida e produtiva.
+          Sinta-se a vontade para adicionar mais extensões. :D
+        </p>
+        <a class="card__link" href="https://github.com/acaverna/Extensoes-Maneiras-Para-Sua-IDE" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Eventos de tecnologia no Brasil</h3>
+        <p>
+          Este repositório contém uma lista de eventos de tecnologia que vão
+          acontecer no Brasil de maneira online, presencial ou híbrida. Foi
+          criada pela comunidade da mentoria de pessoas DevRel,
+          Abacatinhos.dev, para facilitar a busca por eventos nos quais
+          podemos participar.
+        </p>
+        <a class="card__link" href="https://github.com/Abacatinhos/eventos-tech-brasil" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Hacktoberfest</h3>
+        <p>
+          Este repositório contém informações, materiais de estudo e
+          repositórios sobre a Hacktoberfest, como uma forma de facilitar
+          pessoas iniciantes de contribuirem no evento.
+        </p>
+        <a class="card__link" href="https://github.com/leticiadasilva/Hacktoberfest" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Por onde começar?</h3>
+        <p>
+          União de materiais totalmente gratuitos para ajudar quem desejar
+          entrar em alguma área, aprender uma nova tecnologia ou aprimorar
+          suas skills.
+        </p>
+        <a class="card__link" href="https://github.com/leticiadasilva/por-onde-comecar" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Curso Kotlinautas</h3>
+        <p>
+          Projeto com vários exercicios de lógica de programação para aprender
+          Kotlin utilizando o IntelliJ IDEA
+        </p>
+        <a class="card__link" href="https://github.com/Kotlinautas/curso-kotlinautas" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Interview Questions</h3>
+        <p>
+          Projeto com várias questões de entrevistas, para treinar lógica de programação e se preparar para entrevistas
+          técnicas.
+        </p>
+        <a class="card__link" href="https://github.com/thalytabdn/Interview-Questions" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Up for Grabs!</h3>
+        <p>
+          Ferramenta que facilita a pesquisa em encontrar projetos que possuem uma curadoria de tarefas para novos
+          contribuintes.
+        </p>
+        <a class="card__link" href="https://up-for-grabs.net" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Front-end Developers</h3>
+        <p>
+          Repositório com tutoriais e referências para pessoas desenvolvedoras front-end no @github.
+        </p>
+        <a class="card__link" href="https://github.com/anamariasilva/front-end" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Cursos Gratuitos</h3>
+        <p>
+          Repositório com links de materiais gratuitos em pt-br &#127463;&#127479;
+        </p>
+        <a class="card__link" href="https://github.com/celycodes/cursos-gratuitos" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Desenhando com CSS</h3>
+        <p>
+          Repositorio criado para desenhos feitos com css.
+        </p>
+        <a class="card__link" href="https://github.com/proxygo/desenhando_com_css" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Front-end Developers</h3>
+        <p>
+          Esse repositório foi criado por Fernanda Souza, com o intuito de divulgar
+          ferramentas gratuitas que possam auxiliar pessoas em seus estudos.
+        </p>
+        <a class="card__link" href="https://github.com/leitoraincomum/conteudos-tech">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">DevChallenge</h3>
+        <p>
+          Repositório com desafios que tem como objetivo celebrar e incentivar o
+          software de código aberto, além de contribuir com a comunidade de
+          tecnologia para prática de desenvolvimento e troca de conhecimentos.
+        </p>
+        <a class="card__link" href="https://github.com/devchallenge-io/hacktoberfest2022" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+      <section class="card">
+        <h3 class="card__titulo">Awesome JavaScript Projects</h3>
+        <p>
+          Repositório com exemplos de projetos front-end para pessoas iniciantes
+          que utilizam HTML, CSS e JavaScript.
+        </p>
+        <a class="card__link" href="https://github.com/varunKT001/awesome-javascript-projects" target="_blank">
+          Contribua aqui
+        </a>
+      </section>
+  </main>
+  </div>
+  <div class="shape__wrapper">
+    <div class="shape__divider--bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
     </div>
-    <footer>
-      <div class="credits">
-        <div class="contribution__group">
-          <a
-            class="footer-link"
-            href="https://github.com/bugelseif/projetos-iniciantes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contribua também
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </div>
-        <p>Hacktoberfest - 2022</p>
+  </div>
+  <footer>
+    <div class="credits">
+      <div class="contribution__group">
+        <a class="footer-link" href="https://github.com/bugelseif/projetos-iniciantes" target="_blank"
+          rel="noopener noreferrer">
+          Contribua também
+          <i class="fa-brands fa-github"></i>
+        </a>
       </div>
-    </footer>
-  </body>
+      <p>Hacktoberfest - 2022</p>
+    </div>
+  </footer>
+</body>
+
 </html>
