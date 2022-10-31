@@ -93,8 +93,13 @@ const projects = [
     },
 ];
 
-// variavel da seção que leva todos os projetos
+showProjects()
+
+function showProjects(){
+    // variavel da seção que leva todos os projetos
 const section_ProjectsCards = document.querySelector('.projects__cards');
+
+section_ProjectsCards.childNodes.length = 0
 
 // aqui percoremos o todo o array e para cada objeto la de dentro cuamos uma seção card e colocamos todos os dados nela
 // apos criar e configurar os dados, colocamos a seção card dentro da seção de projetos
@@ -122,3 +127,49 @@ projects.map((project) => {
     section_ProjectsCards.appendChild(section_Card)
     
 })
+}
+
+const Add_Project = document.getElementById('Add-Project');
+const Dialog = document.querySelector('.modal');
+const Button_Cancel = document.getElementById('cancel');
+const Button_Close = document.querySelector('.btn-close');
+const Button_Submit = document.getElementById('confirm-add');
+
+Add_Project.addEventListener('click', () => {
+    ToggleDialog(Dialog);
+})
+
+Button_Close.addEventListener('click', () => {
+    ToggleDialog(Dialog);
+})
+
+Button_Cancel.addEventListener('click', () => {
+    ToggleDialog(Dialog);
+})
+
+Button_Submit.addEventListener('click', () => {
+    const Input_Title = document.getElementById('title');
+    const Input_Description = document.getElementById('description');
+    const Input_URL = document.getElementById('link');
+
+    const data = {
+        titulo: Input_Title.value,
+        descricao: Input_Description.value,
+        url: Input_URL.value,
+    }
+
+    projects.push(data);
+
+    showProjects()
+    ToggleDialog(Dialog);
+
+}) 
+
+
+function ToggleDialog(element) {
+    if(element.open){
+        element.close();
+    } else {
+        element.showModal();
+    }
+}
