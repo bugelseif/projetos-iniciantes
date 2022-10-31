@@ -5,6 +5,7 @@
 - [Español](#versión-en-español)
 - [Française](#version-française) 
 - [中文](#中文版)
+- [日本語](#日本語版)
 
 
 # (VERSÃO PORTUGUÊS)
@@ -138,3 +139,28 @@ L'événement peut vous apporter l'opportunité de travailler avec des projets o
 - 自述文件设置
 
 [回到顶部](#💬-idioma)
+
+
+# (日本語版)
+# 🎃 HACKTOBERFEST - 初心者のためのプロジェクト
+
+ここでは、オープンソースプロジェクトに貢献する方法を練習し学ぶことができます。
+
+目標は、あなたが創造性を発揮して、コンテンツを提供したり、ページのデザインを改善したり、このREADMEを補完することです。
+
+## 💻 イベントに参加するには？
+
+本記事[HacktoberFest 2022の準備方法](https://dev.to/github/como-se-preparar-pra-o-hacktoberfest-2022-27ln)では、イベントに参加するための重要な情報をご紹介しています。
+
+## ⭐ なぜ参加するのか？
+
+このイベントは、オープンソースプロジェクトで働く機会をもたらし、GitとGitHubの基礎について学び、オンラインカリキュラムを強化し、さらに知識を追加できる他のプロジェクトや人々と出会うことができることに加えて、参加した人が多くの要素で勝利することができます。[GitHubで最初のプルリクエストを行う方法はこちら](https://www.youtube.com/watch?v=Du04jBWrv4A)。
+
+## 🎨 このプロジェクトに貢献するには
+
+- 翻訳する
+- 新しいプロジェクトをリストに追加する
+- デザインを編集する
+- READMEを調整する
+
+[ページの先頭へ戻る](#💬-idioma)
