@@ -65,7 +65,7 @@ const projects = [
     },
     {
         titulo: "Cursos Gratuitos",
-        descricao: `Repositório com links de materiais gratuitos em pt-br &#127463;&#127479;`,
+        descricao: `Repositório com links de materiais gratuitos em pt-br`,
         url:"https://github.com/celycodes/cursos-gratuitos"
     },
     {
@@ -85,6 +85,11 @@ const projects = [
         software de código aberto, além de contribuir com a comunidade de
         tecnologia para prática de desenvolvimento e troca de conhecimentos.`,
         url:"https://github.com/devchallenge-io/hacktoberfest2022"
+    },
+    {
+        titulo: "Awesome JavaScript Projects",
+        descricao: ` Repositório com exemplos de projetos front-end para pessoas iniciantes que utilizam HTML, CSS e JavaScript.`,
+        url:"https://github.com/varunKT001/awesome-javascript-projects"
     },
 ];
 
