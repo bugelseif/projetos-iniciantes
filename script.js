@@ -91,6 +91,16 @@ const projects = [
         descricao: ` Repositório com exemplos de projetos front-end para pessoas iniciantes que utilizam HTML, CSS e JavaScript.`,
         url:"https://github.com/varunKT001/awesome-javascript-projects"
     },
+    {
+        titulo: "Diciotech",
+        descricao: ` Repositório de um projeto incrível para a construção de um dicionário tech para pessoas que querem aprender mais sobre termos técnicos dentro da tecnologia. `,
+        url:"https://github.com/levxyca/diciotech/"
+    },
+    {
+        titulo: "Mulheres na Tecnologia",
+        descricao: ` Repositório para compartilhar mulheres na tecnologia mostrando que há muitas delas que transformaram e ainda transformam a área. Além de uma sessão também para comunidades para mulheres na tecnologia. `,
+        url:"https://github.com/morgannadev/mulherestecnologia"
+    }
 ];
 
 showProjects()
