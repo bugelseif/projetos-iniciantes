@@ -74,8 +74,8 @@ const projects = [
         url:"https://github.com/proxygo/desenhando_com_css"
     },
     {
-        titulo: "Front-end Developers",
-        descricao: `Esse repositório foi criado por Fernanda Souza, com o intuito de divulgar 
+        titulo: "Conteúdo Tech",
+        descricao: `Esse repositório foi criado por Fernanda Souza (@leitoraincomum), com o intuito de divulgar 
         ferramentas gratuitas que possam auxiliar pessoas em seus estudos.`,
         url:"https://github.com/leitoraincomum/conteudos-tech"
     },
