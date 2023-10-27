@@ -100,6 +100,16 @@ const projects = [
         titulo: "Mulheres na Tecnologia",
         descricao: ` Repositório para compartilhar mulheres na tecnologia mostrando que há muitas delas que transformaram e ainda transformam a área. Além de uma sessão também para comunidades para mulheres na tecnologia. `,
         url:"https://github.com/morgannadev/mulherestecnologia"
+    },
+    {
+        titulo: "Front-end",
+        descricao: ` Repositório com tutoriais e referências para pessoas desenvolvedoras front-end no GitHub. `,
+        url:"https://github.com/anamariasilva/front-end"
+    },
+    {
+        titulo: "Mulheres na Tecnologia",
+        descricao: ` Conteúdos de referência produzidos por mulheres da tecnologia e por comunidades, organizações e iniciativas para pessoas que se identificam com o gênero feminino. `,
+        url:"https://github.com/anatechdev/mulheres-na-tecnologia"
     }
 ];
 
