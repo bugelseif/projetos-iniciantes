@@ -11,11 +11,6 @@ const projects = [
         url:"https://github.com/lissatransborda/transchange"
     },
     {
-        titulo: "Lista de extensões para IDEs",
-        descricao: "Este repositório contém listas de extensões para IDEs selecionados pela comunidade da Caverna do Patocórnio, buscando melhorar a sua IDE, e deixar sua jornada na programação mais divertida e produtiva. Sinta-se a vontade para adicionar mais extensões. :D",
-        url:"https://github.com/acaverna/Extensoes-Maneiras-Para-Sua-IDE"
-    },
-    {
         titulo: "Eventos de tecnologia no Brasil",
         descricao: `Este repositório contém uma lista de eventos de tecnologia que vão
         acontecer no Brasil de maneira online, presencial ou híbrida. Foi
@@ -23,33 +18,6 @@ const projects = [
         Abacatinhos.dev, para facilitar a busca por eventos nos quais
         podemos participar.`,
         url:"https://github.com/Abacatinhos/eventos-tech-brasil"
-    },
-    {
-        titulo: "Hacktoberfest",
-        descricao: `Este repositório contém informações, materiais de estudo e
-        repositórios sobre a Hacktoberfest, como uma forma de facilitar
-        pessoas iniciantes de contribuirem no evento.`,
-        url:"https://github.com/leticiadasilva/Hacktoberfest"
-    },
-
-    {
-        titulo: "Por onde começar?",
-        descricao: `União de materiais totalmente gratuitos para ajudar quem desejar
-        entrar em alguma área, aprender uma nova tecnologia ou aprimorar
-        suas skills.`,
-        url:"https://github.com/leticiadasilva/por-onde-comecar"
-    },
-    {
-        titulo: "Curso Kotlinautas",
-        descricao: `Projeto com vários exercicios de lógica de programação para aprender
-        Kotlin utilizando o IntelliJ IDEA.`,
-        url:"https://github.com/Kotlinautas/curso-kotlinautas"
-    },
-    {
-        titulo: "Interview Questions",
-        descricao: `Projeto com várias questões de entrevistas, para treinar lógica de
-        programação e se preparar para entrevistas técnicas.`,
-        url:"https://github.com/thalytabdn/Interview-Questions"
     },
     {
         titulo: "Up for Grabs!",
@@ -69,22 +37,10 @@ const projects = [
         url:"https://github.com/celycodes/cursos-gratuitos"
     },
     {
-        titulo: "Desenhando com CSS",
-        descricao: `Repositorio criado para desenhos feitos com css.`,
-        url:"https://github.com/proxygo/desenhando_com_css"
-    },
-    {
         titulo: "Conteúdo Tech",
         descricao: `Esse repositório foi criado por Fernanda Souza (@leitoraincomum), com o intuito de divulgar 
         ferramentas gratuitas que possam auxiliar pessoas em seus estudos.`,
         url:"https://github.com/leitoraincomum/conteudos-tech"
-    },
-    {
-        titulo: "DevChallenge",
-        descricao: ` Repositório com desafios que tem como objetivo celebrar e incentivar o
-        software de código aberto, além de contribuir com a comunidade de
-        tecnologia para prática de desenvolvimento e troca de conhecimentos.`,
-        url:"https://github.com/devchallenge-io/hacktoberfest2022"
     },
     {
         titulo: "Awesome JavaScript Projects",
@@ -100,11 +56,6 @@ const projects = [
         titulo: "Mulheres na Tecnologia",
         descricao: ` Repositório para compartilhar mulheres na tecnologia mostrando que há muitas delas que transformaram e ainda transformam a área. Além de uma sessão também para comunidades para mulheres na tecnologia. `,
         url:"https://github.com/morgannadev/mulherestecnologia"
-    },
-    {
-        titulo: "Front-end",
-        descricao: ` Repositório com tutoriais e referências para pessoas desenvolvedoras front-end no GitHub. `,
-        url:"https://github.com/anamariasilva/front-end"
     },
     {
         titulo: "Mulheres na Tecnologia",
