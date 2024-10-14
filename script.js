@@ -63,6 +63,12 @@ const projects = [
         url:"https://github.com/anatechdev/mulheres-na-tecnologia"
     }
 ];
+{
+    titulo: "Cinema em Poa",
+    descricao: ` CINEMA EM POA é um portal agregador de filmes das casas de cinema de Porto Alegre. `,
+    url:"https://github.com/cumbucadev/cinemaempoa"
+}
+];
 
 showProjects()
 
