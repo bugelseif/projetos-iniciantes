@@ -61,14 +61,13 @@ const projects = [
         titulo: "Mulheres na Tecnologia",
         descricao: ` Conteúdos de referência produzidos por mulheres da tecnologia e por comunidades, organizações e iniciativas para pessoas que se identificam com o gênero feminino. `,
         url:"https://github.com/anatechdev/mulheres-na-tecnologia"
+    },
+    {
+        titulo: "Cinema em Poa",
+        descricao: ` CINEMA EM POA é um portal agregador de filmes das casas de cinema de Porto Alegre. `,
+        url:"https://github.com/cumbucadev/cinemaempoa"
     }
-];
-{
-    titulo: "Cinema em Poa",
-    descricao: ` CINEMA EM POA é um portal agregador de filmes das casas de cinema de Porto Alegre. `,
-    url:"https://github.com/cumbucadev/cinemaempoa"
-}
-];
+    ];
 
 showProjects()
 
