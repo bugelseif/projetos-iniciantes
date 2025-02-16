@@ -66,6 +66,16 @@ const projects = [
         titulo: "Cinema em Poa",
         descricao: ` CINEMA EM POA é um portal agregador de filmes das casas de cinema de Porto Alegre. `,
         url:"https://github.com/cumbucadev/cinemaempoa"
+    },
+    {
+        titulo: "Projetos PHP brasileiros",
+        descricao: `Lista de projetos PHP brasileiros aceitando contribuições para o hacktoberfest. `,
+        url:"https://github.com/PHPRio/hacktoberfest?tab=readme-ov-file"
+    },
+    {
+        titulo: "33 conceitos de JavaScript",
+        descricao: `Repositório com 33 conceitos de JavaScript que todo desenvolvedor deve conhecer. `,
+        url:"https://github.com/leonardomso/33-js-concepts"
     }
     ];
 
