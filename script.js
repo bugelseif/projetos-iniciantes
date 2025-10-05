@@ -76,6 +76,11 @@ const projects = [
         titulo: "33 conceitos de JavaScript",
         descricao: `Repositório com 33 conceitos de JavaScript que todo desenvolvedor deve conhecer. `,
         url:"https://github.com/leonardomso/33-js-concepts"
+    },
+    {
+        titulo: "Extensões maneiras para sua IDE",
+        descricao: `Repositório para armazenar extensões maneiras que a comunidade gosta de utilizar em sua IDE preferida. `,
+        url:"https://github.com/acaverna/Extensoes-Maneiras-Para-Sua-IDE"
     }
     ];
 
