@@ -81,8 +81,13 @@ const projects = [
         titulo: "Extensões maneiras para sua IDE",
         descricao: `Repositório para armazenar extensões maneiras que a comunidade gosta de utilizar em sua IDE preferida. `,
         url:"https://github.com/acaverna/Extensoes-Maneiras-Para-Sua-IDE"
+    },
+    {
+        titulo: "Simuladores virtuais",
+        descricao: `Repositório para armazenar simuladores virtuais`,
+        url: "https://github.com/JosueSerejo/simuladores-virtuais"
     }
-    ];
+];
 
 showProjects()
 
