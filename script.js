@@ -86,6 +86,11 @@ const projects = [
         titulo: "Simuladores virtuais",
         descricao: `Repositório para armazenar simuladores virtuais`,
         url: "https://github.com/JosueSerejo/simuladores-virtuais"
+    },
+    {
+        titulo: "Agenda Tech",
+        descricao: `Lista de eventos tech que acontecem no Brasil`,
+        url: "https://github.com/agenda-tech-brasil"
     }
 ];
 
