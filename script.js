@@ -91,6 +91,11 @@ const projects = [
         titulo: "Agenda Tech",
         descricao: `Lista de eventos tech que acontecem no Brasil`,
         url: "https://github.com/agenda-tech-brasil"
+    },
+    {
+        titulo: "Gerador de regex",
+        descricao: "Um projeto Vanilla JS/MVC para gerar expressões regulares (Regex) validadas a partir de critérios selecionados pelo usuário",
+        url: "https://github.com/priscillatrevizan/regex-generator"
     }
 ];
 
